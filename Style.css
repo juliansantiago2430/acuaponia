@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 80px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #d24d57;
+    text-shadow: 2px 2px 0 #333;
+}
+
+.info {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #555;
+    background-color: #f2f2f2;
+}
+
+.info h2 {
+    font-size: 1.8em;
+    color: #007acc;
+}
+
+.info p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.contact h3 {
+    font-size: 1.6em;
+    color: #ff6347;
+}
+
+.contact ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.contact li {
+    margin-bottom: 10px;
+}
+
+.contact span {
+    color: #d24d57;
+    font-weight: bold;
+}
+
+.author {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
